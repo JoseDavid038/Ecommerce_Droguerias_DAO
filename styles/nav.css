@@ -1,0 +1,25 @@
+.nav-blue{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #1C8CCB;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+
+.nav-white{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grupo Dao_</title>
+    <link rel="icon" href="assets/icons/faviconD.svg" type="image/x-ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/detalle-producto.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/grid_products.css">
+   
+  </head>
+
+  <body>
+
+    <special-header></special-header>
+    
+  
+    
+
+    <div class="product-route">
+      <p class="route-title">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></p>
+      <p class="route-title">Cuidado del bebe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></p>
+      <p class="route-title">Formulas infantiles&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></p>
+      <p class="route-product-title">Alimento Lacteo Enfagrow Premium Promental</p>
+    </div>
+
+    <section class="product-detail">
+      <div class="secundary-product-images">
+        <img class='secundary-images' src="assets/images/products/enfagrow2.jpg" alt="" onclick="changeImage(this)">
+        <img class='secundary-images' src="assets/images/products/enfagrow3.jpg" alt="" onclick="changeImage(this)">
+        <img class='secundary-images' src="assets/images/products/enfagrow4.jpg" alt="" onclick="changeImage(this)">
+      </div>
+      <div>
+        <img class='primary-image js-image-main' src="assets/images/products/enfagrow premium promental vainilla 4 caja x 1650gr.webp" alt="">
+      </div>
+      <div class="product-info">
+        <p class="product-title">Alimento Lacteo Enfagrow Premium Promental Vainilla 4 Caja X 1650 Gr</p>
+        <div class="price-reviews">
+          <p class="price">$88.165</p>
+          <div class="reviews">
+            <div class="reviews">
+              <img class='star-icon'src="assets/icons/star.png" alt="">
+              <p>4.8</p>
+            </div>
+            <p>3 Reseñas</p>
+          </div>
+        </div>
+        <p class="price-unit">Mililitros a $4198.33</p>
+        <p class="description-product-detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, rem cum. Optio obcaecati natus ut iste! Ducimus officia id voluptas iste eligendi molestiae vero impedit, cumque cupiditate fuga saepe quas.</p>
+        <div class="quantity-cart-buttons">
+          <div class="quantity-button-container">
+            <button class="quantity-button" onclick="removeCart()">-</button>
+            <input class='quantity-input'type="text" value="1">
+            <button class="quantity-button" onclick="addCart()">+</button>
+          </div>
+          <button class="add-cart">AGREGAR AL CARRITO</button>
+        </div>
+        <button class="buy-now-button">COMPRAR AHORA</button>
+        <div class="secundary-actions">
+          <div class="secundary-actions">
+            <img src="assets/icons/heart.png" alt="">
+            <p>Añadir a favoritos</p>
+          </div>
+          <div class="secundary-actions">
+            <img src="assets/icons/share.png" alt="">
+            <p>Compartir</p>
+          </div>
+          <div class="secundary-actions">
+            <img src="assets/icons/questionMark.png" alt="">
+            <p>Haz una pregunta</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="benefits">
+        <img src="assets/icons/envioGratis.png" alt="">
+        <p>Envío Gratis</p>
+      </div>
+      <div class="benefits">
+        <img src="assets/icons/comprayretira.png" alt="">
+        <p>Compra aqui y <br>retira en tienda.</p>
+      </div>
+      <div class="benefits">
+        <img src="assets/icons/prices.png" alt="">
+        <p>Mejores precios <br>y ofertas</p>
+      </div>
+      <div class="benefits">
+        <img src="assets/icons/seguimiento.png" alt="">
+        <p>Seguimiento de <br>tus pedidos</p>
+      </div>
+
+    </section>
+
+    <section class="ficha">
+
+        <div class="menu-tab">
+          <p data-target = "#ficha" class="selected">Ficha Técnica</p>
+          <p data-target = "#detalle">Detalle de producto</p>
+          <p data-target = "#resenas">Reseñas</p>
+          <p data-target = "#preguntas">Preguntas</p>
+        </div>
+        <hr class="line-menu">
+
+        <div class="content">
+
+          <div data-content id="ficha" class="active">
+            <div class="table gray-table">
+              <p class="title-features">Marca:</p>
+              <p>Enfagrow</p>
+            </div>
+            <div class="table white-table">
+              <p class="title-features">Modelo:</p>
+              <p>Preescolar Promental Vainilla 1650g</p>
+            </div>
+            <div class="table gray-table">
+              <p class="title-features">Tipo de Producto:</p>
+              <p>Leches de Crecimiento</p>
+            </div>
+            <div class="table white-table">
+              <p class="title-features">Cantidad:</p>
+              <p>1650 gr</p>
+            </div>
+            <div class="table gray-table">
+              <p class="title-features">Edad recomendada:</p>
+              <p>50 ML</p>
+            </div>
+            <div class="table white-table">
+              <p class="title-features">Concentración:</p>
+              <p>3 a 5 años</p>
+            </div>
+            <div class="table gray-table">
+              <p class="title-features">Registro Invima:</p>
+              <p>RSiA16I133612</p>
+            </div>
+            <div class="table white-table">
+              <p class="title-features">Presentación del Producto:</p>
+              <p>Lata</p>
+            </div>
+            <div class="table gray-table">
+              <p class="title-features">Unidades por paquete:</p>
+              <p>1</p>
+            </div>
+          </div>
+          <div data-content id="detalle">
+            <div class="title-detail">
+              <p>Características del Protector Solar Eucerin Fps+50 Oil Control Tinted Toque Seco Tono Medio x 50 ml</p>
+            </div>
+            <div class="description-product">Eucerin Sun Gel-Crema Oil Control Toque Seco Tono Medio FPS 50+ es un protector solar de uso diario con un factor de protección muy alto, cuya fórmula fue creada específicamente para la piel grasa y tendencia a imperfecciones. Combina una fotoprotección superior contra los daños ocasionados por el sol con una solución activa para mejorar la condición de la piel.<br><br>
+            Por último, su tecnología diseñada especialmente para el control de la grasa se encarga de cubrir las necesidades específicas de la piel grasa con tendencia a imperfecciones. La fórmula está compuesta por L-carnitina, que regula la produccion de sebo, junto con una combinación de tres pigmentos matificantes que absorben los lípidos, dejando un inmediato acabado mate seco y duradero en la piel, incluso en climas cálidos y húmedos.</div>
+            <div class="description-product method-use">Modo de uso:</div>
+            <div class="description-product">Aplíquela por la mañana después o en lugar de tu producto de cuidado diario habitual. Puede utilizarse en combinación con otros productos de cuidado facial de Eucerin, como los de la gama Eucerin DERMOPURE.</div>
+          </div>
+          <div data-content id="resenas">
+          <div class="title-resenias">Calificación y opiniones</div>
+          <div class="rate-resenias">
+            <p class="rate">4.8 / 2 reseñas</p>
+            <button class="resenias-button">Escribir una reseña</button>
+          </div>
+          <hr class="line-resenias">
+          <div class="customer-resenias">
+            <div>
+              <p class="name-client">Amelia</p>
+            </div>
+            <div>
+              <div class="star-resenias"><span>&starf;&starf;&starf;&starf;&starf;</span></div>
+              <div class="date-coment">Mayo 19, 2024</div>
+              <div class="title-coment">Producto Maravilloso</div>
+              <div class="coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia delectus tempora repellat ipsam rerum sapiente, natus, nobis quibusdam sed modi error! Est quasi magnam sint consequuntur, autem quod ipsam iste.</div>
+            </div>
+          </div>
+          <div class="customer-resenias">
+            <div>
+              <p class="name-client">Emma</p>
+            </div>
+            <div>
+              <div class="star-resenias"><span>&starf;&starf;&starf;&starf;&starf;</span></div>
+              <div class="date-coment">Mayo 19, 2024</div>
+              <div class="title-coment">Mi mejor compra</div>
+              <div class="coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia delectus tempora repellat ipsam rerum sapiente, natus, nobis quibusdam sed modi error! Est quasi magnam sint consequuntur, autem quod ipsam iste.</div>
+            </div>
+          </div>
+          </div>
+          <div data-content id="preguntas">
+            <div class="title-resenias">Preguntas</div>
+            <p class="title-questions">¿Tiene alguna pregunta? Consultale a nuestros asesores.</p>
+          <div class="rate-resenias">
+            <input class="question-input" placeholder="Hola, realiza tu pregunta">
+            <button class="resenias-button">Envia tu pregunta</button>
+          </div>
+          <hr class="line-resenias">
+          <div class="customer-resenias">
+            <div>
+              <p class="name-client">Amelia</p>
+            </div>
+            <div>
+              <div class="date-coment">Mayo 19, 2024</div>
+              <div class="title-coment">Buenas noches de casualidad tienen este producto en tono claro?</div>
+              <div class="coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia delectus tempora repellat ipsam rerum sapiente, natus, nobis quibusdam sed modi error! Est quasi magnam sint consequuntur, autem quod ipsam iste.</div>
+            </div>
+          </div>
+          <div class="customer-resenias">
+            <div>
+              <p class="name-client">Emma</p>
+            </div>
+            <div>
+              <div class="date-coment">Mayo 19, 2024</div>
+              <div class="title-coment">Hola, hasta cuando va el descuento ?</div>
+              <div class="coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia delectus tempora repellat ipsam rerum sapiente, natus, nobis quibusdam sed modi error! Est quasi magnam sint consequuntur, autem quod ipsam iste.</div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+
+    </section>
+
+
+    <div>
+      <p class="title-section">Productos relacionados</p>
+      <hr class="line">
+    </div>
+
+    <div class="grid-productos">
+
+      <div class="card-producto">
+        <div class="imagen-container">
+          <img class="imagen-producto" src="assets/images/products/fotoprotector Isdin.webp" alt="">
+        </div>
+        <div class="info-producto">
+          <p class="nombre-producto">Fotoprotector Isdin Fusion Water Color Light Spf50 X50 Ml</p>
+          <p class="precio-producto">$128.950</p>
+          <p class="empaque-producto">Unidades a $2579.75</p>
+        </div>
+        <div>
+          <button class="button-cart">Agregar</button>
+        </div>
+      </div>
+
+      <div class="card-producto">
+        <div class="imagen-container">
+          <img class="imagen-producto" src="assets/images/products/eucerinHialuron.webp" alt="">
+        </div>
+        <div class="info-producto">
+          <p class="nombre-producto">Crema Facial Eucerin Noche Hyaluron-filler + Elasticity Antiedad</p>
+          <p class="precio-producto">$166.565</p>
+          <p class="empaque-producto">Unidades a $4759.25</p>
+        </div>
+        <div>
+          <button class="button-cart">Agregar</button>
+        </div>
+      </div>
+
+
+      <div class="card-producto">
+        <div class="imagen-container">
+          <img class="imagen-producto" src="assets/images/products/eucerinLip.webp" alt="">
+        </div>
+        <div class="info-producto">
+          <p class="nombre-producto">Protector Labial Eucerin Ph5 Lip Active X 4.8 Gr</p>
+          <p class="precio-producto">$30.250</p>
+          <p class="empaque-producto">Unidades a $3781.25</p>
+        </div>
+        <div>
+          <button class="button-cart">Agregar</button>
+        </div>
+      </div>
+
+      <div class="card-producto">
+        <div class="imagen-container">
+          <img class="imagen-producto" src="assets/images/products/eucerinOil.webp" alt="">
+        </div>
+        <div class="info-producto">
+          <p class="nombre-producto">Gel Eucerin Dermo Pure Oil Control Limpiador X 200 Ml</p>
+          <p class="precio-producto">$60.250</p>
+          <p class="empaque-producto">Unidades a $3781.25</p>
+        </div>
+        <div>
+          <button class="button-cart">Agregar</button>
+        </div>
+      </div>
+    </div>
+
+    <special-footer></special-footer>
+
+
+    <script src="js/detalle-producto.js"></script>
+    <script src="js/header-footer.js"></script>
+    <script src="js/descripcion-producto.js"></script>
+    <script src="js/scrpts.js"></script>
+
+  </body>
+</html>

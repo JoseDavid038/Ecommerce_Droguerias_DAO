@@ -1,0 +1,17 @@
+@media (max-width: 750px){
+  .grid-productos{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:751px) and (max-width:999px){
+  .grid-productos{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:1000px){
+  .grid-productos{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
